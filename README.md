@@ -1,10 +1,16 @@
 STEPS:
 python -m venv venv
+
 py -3.11 -m venv venv
+
 Set-ExecutionPolicy Unrestricted -Scope Process
+
 .\venv\Scripts\activate
+
 pip install -r .\requirements.txt
+
 streamlit run .\PDFEnhancedChatBot.py
+
 
 The AI PDF & Web Crawler Chatbot is an intelligent application designed to assist users in extracting, indexing, and querying information from both uploaded PDF documents and web pages. It leverages advanced natural language processing (NLP) and vector search technologies to provide concise and accurate answers to user queries based on the indexed content.
 Key Features:
